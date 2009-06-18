@@ -1,0 +1,23 @@
+<p>
+  <b>Name:</b>
+  <%=h @patient.name %>
+</p>
+
+<p>
+  <b>Surname:</b>
+  <%=h @patient.surname %>
+</p>
+
+<p>
+  <b>Birthday:</b>
+  <%=h @patient.birthday %>
+</p>
+
+<p>
+  <b>Weight:</b>
+  <%=h @patient.weight %>
+</p>
+
+
+<%= link_to 'Edit', edit_patient_path(@patient) %> |
+<%= link_to 'Back', patients_path %>

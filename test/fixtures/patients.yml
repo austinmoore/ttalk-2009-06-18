@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  surname: MyString
+  birthday: 2009-06-18
+  weight: 1
+
+two:
+  name: MyString
+  surname: MyString
+  birthday: 2009-06-18
+  weight: 1
